@@ -19,7 +19,7 @@ The benchmarking program is in the `main.rs` and the benchmarking data and tools
 
 To install the testbench you'll need to have:
 - Rust installed - see [Rust installation](https://www.rust-lang.org/tools/install)
-- EtherCAT IgH master installed - see [EtherCAT IgH master installation](https://pollen-robotics.github.io/orbita2d_control/installation/installation_ethercat/)
+- EtherCAT IgH master installed - see [EtherCAT IgH master installation](https://pollen-robotics.github.io/orbita3d_control/installation/installation_ethercat/)
 
 ### Installation
 
