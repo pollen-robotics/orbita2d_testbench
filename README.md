@@ -2,13 +2,13 @@
 
 The benchmarking program is in the `main.rs` and the benchmarking data and tools are in `scripts` directory.
 
-> 📢 Additionally, the `python` directory contains the minimal python setup necessary to interact with the Orbita3d controller (not necessary for the benchmarking program) - see [the python directory](./python/README.md).
+<!-- > 📢 Additionally, the `python` directory contains the minimal python setup necessary to interact with the Orbita3d controller (not necessary for the benchmarking program) - see [the python directory](./python/README.md). -->
 
-In the benchmarking directory are the python scripts to generate the benchmarking input data and to plot the benchmarking results.
-- `generate_input_data.py` generates the benchmarking input data
-   - outputs a csv file with the benchmarking input `csv` data
-- `plot_test_data.py` plots the benchmarking results
-    - plots the figures showing the test results
+<!-- In the benchmarking directory are the python scripts to generate the benchmarking input data and to plot the benchmarking results. -->
+<!-- - `generate_input_data.py` generates the benchmarking input data -->
+<!--    - outputs a csv file with the benchmarking input `csv` data -->
+<!-- - `plot_test_data.py` plots the benchmarking results -->
+<!--     - plots the figures showing the test results -->
 
 <!-- Test plot outputs: -->
 
