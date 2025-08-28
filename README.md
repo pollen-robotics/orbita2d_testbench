@@ -2,7 +2,7 @@
 
 The benchmarking program is in the `main.rs` and the benchmarking data and tools are in `scripts` directory.
 
-<!-- > 📢 Additionally, the `python` directory contains the minimal python setup necessary to interact with the Orbita3d controller (not necessary for the benchmarking program) - see [the python directory](./python/README.md). -->
+<!-- > 📢 Additionally, the `python` directory contains the minimal python setup necessary to interact with the Orbita2d controller (not necessary for the benchmarking program) - see [the python directory](./python/README.md). -->
 
 <!-- In the benchmarking directory are the python scripts to generate the benchmarking input data and to plot the benchmarking results. -->
 <!-- - `generate_input_data.py` generates the benchmarking input data -->
@@ -19,7 +19,7 @@ The benchmarking program is in the `main.rs` and the benchmarking data and tools
 
 To install the testbench you'll need to have:
 - Rust installed - see [Rust installation](https://www.rust-lang.org/tools/install)
-- EtherCAT IgH master installed - see [EtherCAT IgH master installation](https://pollen-robotics.github.io/orbita3d_control/installation/installation_ethercat/)
+- EtherCAT IgH master installed - see [EtherCAT IgH master installation](https://pollen-robotics.github.io/orbita2d_control/installation/installation_ethercat/)
 
 ### Installation
 
@@ -36,7 +36,7 @@ cargo build --release
 
 ### Running the benchmarking program
 
-The benchmarking program is in the `main.rs`. The benchmarking program takes in a timeseries csv file with the target values of the orbita3d actuator. The benchmarking program will send the target values to the orbita3d actuator and record the actual values of the actuator. The benchmarking program will output a csv file with the actual values of the actuator.
+The benchmarking program is in the `main.rs`. The benchmarking program takes in a timeseries csv file with the target values of the orbita2d actuator. The benchmarking program will send the target values to the orbita2d actuator and record the actual values of the actuator. The benchmarking program will output a csv file with the actual values of the actuator.
 
 > Generate the test input data by running the `generate_input_data.py` script in the `scripts` directory. The script will output a csv file with the benchmarking input data.
 
